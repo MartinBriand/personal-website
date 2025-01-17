@@ -4,3 +4,7 @@
 
 % Python
 /backend/.venv/
+__pycache__/
+
+% Credentials
+/backend/development_credentials.py
