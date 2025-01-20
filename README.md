@@ -6,7 +6,7 @@ Hi, thank you for reading about this project.
 
 * I need a website for my scientific publications
 * I want to learn more about coding a website which is the reason why I use much more complex tools than a simple WordPress website.
-* I would like this website to become a broader part of my online like, adding modules to it, publishing blog posts, publishing open resources and so on… So a simple WordPress might soon be too limited.
+* I would like this website to become a broader part of my online life like, adding modules to it, publishing blog posts, publishing open resources and so on… So a simple WordPress might soon be too limited.
 
 ## Technologies of the project
 
@@ -17,7 +17,7 @@ Hi, thank you for reading about this project.
 
 ## Contributing
 
-I really want to learn, so it would be better if no one contributes directly to the code. But if you want to warn me about problems in my code or security issues, or things I could do better, you are more than welcome. Do not hesitate to contact me.
+I really want to learn, so it would be better if no one contributes directly to the code but me. However, if you want to warn me about problems in my code or security issues, or things I could do better, you are more than welcome. Do not hesitate to contact me.
 
 Also, I made the project public and open-source, so that anyone could duplicate the code and use it for his/her own purpose. So do not hesitate to do so (even if I doubt there will be a lot of people doing so).
 
@@ -54,7 +54,7 @@ Install PostgreSQL
 sudo apt install postgresql
 ```
 
-And start the service (you will have to redo it each time you work on the project)
+And start the service (you will have to redo this each time you work on the project)
 
 ```bash
 sudo service postgresql start
@@ -110,7 +110,7 @@ GRANT ALL PRIVILEGES ON SCHEMA public TO personal_website_djangobackend_user;
 \q
 ```
 
-Your development database is almost all set. Now we make Django able to connect to it by creating a `development_credentials.py` file in the `backend` folder like below. (Make sure the file has this exact name for the file is “gitignored”.)
+Your development database is almost all set. Now we make Django able to connect to it by creating a `development_credentials.py` file in the `backend` folder like below. (Make sure the file has this exact name for the file is “gitignored” and is imported in other parts of the code.)
 
 ```python
 # PostgreSQL development credentials
@@ -143,7 +143,7 @@ During the time of development, you may need to access the database to see the d
 
 1. Install pgAdmin on Windows and start the app.
 1. Click on `Add New Server`
-1. In `General`, enter a name (for example: `djangotutorial_developdb`)
+1. In `General`, enter a name (for example: `personal_website_developdb`)
 1. In `Connection`, enter
     1. Host name/address: `localhost`
     1. Port: `5432`
@@ -161,3 +161,5 @@ I don't have any deadlines, but here are the different steps I am planning to wo
 * Create a backend for a Secret Santa app
 * Create a backend for a polling app
 * Create a front end for all this apps
+
+More specifically, there is a GitHub Project associated with the repository.
