@@ -6,7 +6,7 @@ Hi, thank you for reading about this project.
 
 * I need a website for my scientific publications
 * I want to learn more about coding a website which is the reason why I use much more complex tools than a simple WordPress website.
-* I would like this website to become a broader part of my online life like, adding modules to it, publishing blog posts, publishing open resources and so on… So a simple WordPress might soon be too limited.
+* I would like this website to become a broader part of my online life. Therefore, I would like to be able to add modules to it, like a blog posts module, a secret Santa module, a votation module… So a simple WordPress might soon be too limited.
 
 ## Technologies of the project
 
