@@ -1,2 +1,11 @@
 % Coding
 /personal-website.code-workspace
+/.vscode/
+
+
+% Python
+/backend/.venv/
+__pycache__/
+
+% Credentials
+/backend/development_credentials.py
